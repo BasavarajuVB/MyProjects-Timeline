@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.course-container {
+  background-color: #fff;
+
+  padding: 10px;
+}
+.tags-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+li {
+  list-style-type: none;
+  margin: 3px;
+}
+.title-duration-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.duration-con {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+ul {
+  padding-left: 0;
+}
+.button {
+  padding: 4px;
+  outline: none;
+  border: 0;
+  font-family: 'roboto';
+  color: #1e293b;
+  cursor: pointer;
+  font-weight: 600;
+}
+.course-title {
+  font-family: 'roboto';
+  font-size: 22px;
+  color: #171f46;
+  font-weight: 600;
+}
+.duration {
+  font-family: 'roboto';
+}
+.description {
+  font-family: 'roboto';
+  font-size: 14px;
+}
+
+@media screen and (max-width: 670px) {
+  .course-title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .course-title {
+    font-size: 12px;
+  }
+}

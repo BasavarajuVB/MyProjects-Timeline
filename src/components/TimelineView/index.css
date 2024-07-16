@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+.main-heading {
+  font-family: 'roboto';
+  font-size: 22px;
+  color: #171f46;
+  font-weight: 600;
+}
+.ccbp-heading{
+  font-family: 'roboto';
+  font-size: 27px;
+  color: #171f46;
+  font-weight: 700;
+}

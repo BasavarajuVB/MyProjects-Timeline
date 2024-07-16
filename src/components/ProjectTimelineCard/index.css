@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.project-details-container {
+  background-color: #fff;
+
+  padding: 10px;
+}
+.project-image {
+  width: 100%;
+  margin: auto;
+  
+}
+.anchorEl {
+  text-decoration: none;
+  color: #0967d2;
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 600;
+}
